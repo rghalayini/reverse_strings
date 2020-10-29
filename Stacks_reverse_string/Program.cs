@@ -28,14 +28,11 @@ namespace Stacks_reverse_string
             }
 
             Console.WriteLine();
-
             Console.WriteLine();
+
             Console.WriteLine("reversed stack");
 
             char[] wordArray;
-
-            Stack<string> reversed = new Stack<string>(StackedWord.ToArray());
-            
             foreach (string item in StackedWord)
             {
                 wordArray = item.ToCharArray();
